@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:task/view/register_screen/register_screen.dart';
 
+String? storedEmail = '';
+String? storedPassword = '';
 void main() {
   runApp(const MyApp());
 }
